@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumenMusica - Zanimljivosti o klasičnoj glazbi</title>
+    <link rel="icon" type="image/x-icon" href="icona_stranice.png">
+    <link rel="stylesheet" href="styles.css">
+	
+</head>
+<body>
+    <nav id="navigacija">
+        <a href="index.html">Home</a>
+        <a href="webshop.html">Web-shop</a>
+        <a href="slusanje.html">Slušanje online</a>
+        <a href="funfacts.html" class="aktivan">Zanimljivosti</a>
+    </nav>
+    
+    <div class="main-container">
+        <h1 class="page-title">Zanimljive činjenice o klasičnoj glazbi</h1>
+        
+        <div class="intro-text">
+            <p>Otkrijte fascinantne zanimljivosti iz svijeta klasične glazbe - od neobičnih priča o skladateljima i instrumentima do iznenađujućih utjecaja na našu svakodnevicu. Ove činjenice pružaju intrigantni pogled na bogatu povijest i kulturu klasične glazbe.</p>
+        </div>
+        <div class="fact-nav">
+            <button class="nav-button" id="prev-button" disabled>Prethodna</button>
+            <span class="fact-counter" id="fact-counter">1 / 21</span>
+            <button class="nav-button" id="next-button">Sljedeća</button>
+        </div>
+		<br>
+        <div class="fact-container">
+            <!-- 1 -->
+            <div class="fact-item active" id="fact-1">
+                <div class="fact-image-container">
+                    <img src="slike/mozart.jpg" alt="Wolfgang Amadeus Mozart" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Mozart je počeo skladati s 5 godina</h3>
+                    <p class="fact-text">Wolfgang Amadeus Mozart počeo je skladati glazbu kada je imao samo pet godina. Do svoje prerane smrti u 35. godini, skladao je preko 600 djela, uključujući 41 simfoniju, 27 klavirskih koncerata, 23 gudačka kvarteta, 35 sonata za violinu i 21 operu. Ako bi prepisali sva njegova djela na papir, trebalo bi vam oko 10 godina.</p>
+                </div>
+            </div>
+            
+            <!-- 2 -->
+            <div class="fact-item" id="fact-2">
+                <div class="fact-image-container">
+                    <img src="slike/beethoven.jpg" alt="Ludwig van Beethoven" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Beethoven je skladao i nakon što je oglušio</h3>
+                    <p class="fact-text">Ludwig van Beethoven počeo je gubiti sluh u kasnim 20-im godinama, a do svoje 44. godine bio je potpuno gluh. Unatoč tome, nastavio je komponirati neka od svojih najpoznatijih djela, uključujući legendarnu Devetu simfoniju ("Odu radosti"). Tijekom posljednjeg nastupa kao dirigent, nakon izvedbe, morao ga je netko okrenuti da vidi oduševljene reakcije publike, koje nije mogao čuti.</p>
+                </div>
+            </div>
+            
+            <!-- 3 -->
+            <div class="fact-item" id="fact-3">
+                <div class="fact-image-container">
+                    <img src="slike/stradivari.jpg" alt="Stradivariusova violina" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Stradivariusove violine vrijede milijune</h3>
+                    <p class="fact-text">Antonio Stradivari izradio je oko 1.100 instrumenata tijekom svoje karijere, od kojih je danas sačuvano samo oko 650. Njegove violine smatraju se najfinijim instrumentima ikada izrađenim, a pojedini primjerci prodaju se za iznose i do 20 milijuna dolara. Do danas nitko nije uspio u potpunosti replicirati jedinstveni zvuk Stradivariusovih violina, unatoč napretku moderne tehnologije.</p>
+                </div>
+            </div>
+            
+            <!-- 4 -->
+            <div class="fact-item" id="fact-4">
+                <div class="fact-image-container">
+                    <img src="slike/cat_concerto.jpg" alt="Mačak za klavirom" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Skladatelj je napisao "Mačji duet" za svoje ljubimce</h3>
+                    <p class="fact-text">Gioacchino Rossini, poznat po operi "Seviljski brijač", napisao je djelo "Duetto buffo di due gatti" (Komični duet za dvije mačke) u kojem je jedini tekst koji se pjeva "mijau". Navodno je inspiraciju pronašao u svojim ljubimcima i njihovom noćnom "pjevanju", a danas je ova kompozicija popularna kao zabavni bis na klasičnim koncertima.</p>
+                </div>
+            </div>
+            
+            <!-- 5 -->
+            <div class="fact-item" id="fact-5">
+                <div class="fact-image-container">
+                    <img src="slike/brain.jpg" alt="Mozak" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Mozartova glazba može poboljšati kognitivne sposobnosti</h3>
+                    <p class="fact-text">Tzv. "Mozartov efekt" je pojava prvi put primijećena u znanstvenom istraživanju iz 1993. godine, koje je pokazalo da slušanje Mozartove sonate za dva klavira u D-duru (K.448) može privremeno poboljšati prostorno-vremenske vještine. Iako su kasnija istraživanja pokazala da nije samo Mozartova glazba ta koja ima pozitivne učinke, brojne studije potvrđuju da kompleksna klasična glazba potiče moždanu aktivnost i može poboljšati koncentraciju.</p>
+                </div>
+            </div>
+            
+            <!-- 6 -->
+            <div class="fact-item" id="fact-6">
+                <div class="fact-image-container">
+                    <img src="slike/tchaikovsky.jpg" alt="Petar Iljič Čajkovski" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Čajkovski je koristio topovske hice u svojoj glazbi</h3>
+                    <p class="fact-text">U svojoj uvertiri "1812.", Petar Iljič Čajkovski je uključio prave topovske hice kao dio orkestracije. Ovo je glazbeno djelo napisano da obilježi rusku pobjedu nad Napoleonovom invazijom, a pored topova, uključuje i zvona crkve i rusku himnu. Tijekom izvedbi na otvorenom, zaista se koriste pravi topovi, što čini ovo djelo jedinstvenim u klasičnom repertoaru.</p>
+                </div>
+            </div>
+            
+            <!-- 7 -->
+            <div class="fact-item" id="fact-7">
+                <div class="fact-image-container">
+                    <img src="slike/longest_piece.jpg" alt="Najduže glazbeno djelo" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Najduža skladba traje 639 godina</h3>
+                    <p class="fact-text">"Kao sporo kao što je moguće" (ASLSP) Johna Cagea trenutno se izvodi u crkvi sv. Burchardi u Halberstadt, Njemačka, a izvedba je započela 2001. godine i trebala bi trajati do 2640. godine. Izvedba je započela s 18 mjeseci tišine, a zvukovi se mijenjaju tek svakih nekoliko godina. U rujnu 2020. dogodila se promjena nota prvi put nakon 7 godina, a okupilo se više stotina ljudi da svjedoče tom "glazbenom događaju".</p>
+                </div>
+            </div>
+            
+            <!-- 8 -->
+            <div class="fact-item" id="fact-8">
+                <div class="fact-image-container">
+                    <img src="slike/star_wars.jpg" alt="Star Wars orkestar" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Filmska glazba se smatra modernom klasičnom glazbom</h3>
+                    <p class="fact-text">Mnoga filmska glazba, posebno za epske filmske sage poput "Zvjezdanih ratova" ili "Gospodara prstenova", komponirana je u klasičnom stilu i izvode je simfonijski orkestri. Kompozitori poput Johna Williamsa, Hansa Zimmera i Ennija Morriconea smatraju se suvremenim klasičnim skladateljima, a njihova djela se često izvode na koncertima klasične glazbe.</p>
+                </div>
+            </div>
+            
+            <!-- 9 -->
+            <div class="fact-item" id="fact-9">
+                <div class="fact-image-container">
+                    <img src="slike/bach.jpg" alt="Johann Sebastian Bach" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Bach je imao 20 djece</h3>
+                    <p class="fact-text">Johann Sebastian Bach imao je ukupno 20 djece iz dva braka, iako je samo 10 doživjelo odraslu dob. Mnoga od njih postala su uspješni glazbenici i kompozitori, uključujući C.P.E. Bacha i Johanna Christiana Bacha. Obitelj Bach je bila glazbena dinastija u Njemačkoj gotovo 200 godina, s više od 50 poznatih glazbenika kroz nekoliko generacija.</p>
+                </div>
+            </div>
+            
+            <!-- 10 -->
+            <div class="fact-item" id="fact-10">
+                <div class="fact-image-container">
+                    <img src="slike/handel.jpg" alt="Georg Friedrich Händel" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Händel je skladao "Mesiju" za samo 24 dana</h3>
+                    <p class="fact-text">Georg Friedrich Händel napisao je svoj čuveni oratorij "Mesija", koji uključuje poznati "Hallelujah" zbor, za samo 24 dana. Tijekom tog perioda, jedva je jeo i vrlo malo spavao. Nakon što je završio slavni "Hallelujah" zbor, navodno je rekao: "Mislim da sam vidio cijelo nebo pred sobom i samog velikog Boga."</p>
+                </div>
+            </div>
+            
+            <!-- 11 -->
+            <div class="fact-item" id="fact-11">
+                <div class="fact-image-container">
+                    <img src="slike/piano.jpg" alt="Klavir" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Klavir ima više od 12.000 dijelova</h3>
+                    <p class="fact-text">Moderni koncertni klavir ima oko 12.000 pojedinačnih dijelova, uključujući 230 žica koje su napete s ukupno 20 tona pritiska. Kad se svira, čekići unutar klavira udaraju žice brzinom od oko 25 km/h za tihe note do 100 km/h za glasne note. Najduža žica u koncertnom klaviru može biti dugačka gotovo 2 metra.</p>
+                </div>
+            </div>
+            
+            <!-- 12 -->
+            <div class="fact-item" id="fact-12">
+                <div class="fact-image-container">
+                    <img src="slike/opera.jpg" alt="Opera" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Operski pjevači pjevaju bez mikrofona</h3>
+                    <p class="fact-text">Operski pjevači koriste posebnu tehniku pjevanja koja im omogućuje da se njihov glas čuje preko punog orkestra u velikoj opernoj kući s 2.000 ili više mjesta - i sve to bez pomoći mikrofona ili pojačala. Ova tehnika, poznata kao "bel canto", uključuje kontrolu disanja, držanje tijela i oblikovanje zvuka tako da glas rezonira u određenim šupljinama glave za maksimalnu projekciju.</p>
+                </div>
+            </div>
+            
+            <!-- 13 -->
+            <div class="fact-item" id="fact-13">
+                <div class="fact-image-container">
+                    <img src="slike/chopin.png" alt="Frédéric Chopin" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Chopinovo srce je zakopano u drugoj zemlji od ostatka tijela</h3>
+                    <p class="fact-text">Poljski skladatelj Frédéric Chopin, koji je većinu života proveo u Parizu, prije smrti je izrazio želju da njegovo srce bude vraćeno u Poljsku. Nakon njegove smrti 1849. godine, njegovo tijelo je pokopano na groblju Père Lachaise u Parizu, ali njegovo srce je uklonjeno, konzervirano u konjaku i preneseno u Varšavu, gdje je zazidano u stup crkve Svetog Križa.</p>
+                </div>
+            </div>
+            
+            <!-- 14 -->
+            <div class="fact-item" id="fact-14">
+                <div class="fact-image-container">
+                    <img src="slike/liszt.jpg" alt="Franz Liszt" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Franz Liszt bio je prvi glazbeni superstar</h3>
+                    <p class="fact-text">Mađarski pijanist i skladatelj Franz Liszt bio je možda prvi pravi glazbeni superstar. Njegovi koncerti izazivali su histeriju kod publike, posebno kod žena, što je pojava nazvana "Lisztomania". Obožavatelji su se borili za njegove maramice i rukavice, a neki su čak nosili njegovu sliku u medaljonu. Neki povjesničari smatraju ga pretečom moderne celebrity kulture.</p>
+                </div>
+            </div>
+            
+            <!-- 15 -->
+            <div class="fact-item" id="fact-15">
+                <div class="fact-image-container">
+                    <img src="slike/violin.jpg" alt="Violina" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Gudalo violine sadrži oko 200 dlaka</h3>
+                    <p class="fact-text">Gudalo za violinu obično sadrži između 150 i 200 konjskih dlaka, tradicionalno od repova muških konja jer ženske konje češće okvase mokraćom što oštećuje dlaku. Profesionalni violinisti obično mijenjaju dlake na gudalu svakih nekoliko mjeseci. Prije sviranja, glazbenici nanose kolofon na gudalo, smolasti materijal koji pomaže da dlake bolje prianjaju na žice i proizvode zvuk.</p>
+                </div>
+            </div>
+            
+            <!-- 16 -->
+            <div class="fact-item" id="fact-16">
+                <div class="fact-image-container">
+                    <img src="slike/mahler.png" alt="Gustav Mahler" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Mahlerova 8. simfonija zahtijeva više od 1.000 izvođača</h3>
+                    <p class="fact-text">Gustav Mahlerova Osma simfonija, poznata kao "Simfonija tisuća", jedna je od najvećih klasičnih kompozicija ikada napisanih. Za njezinu izvedbu potrebno je preko 1.000 glazbenika, uključujući veliki orkestar, višestruke zborove i vokalne soliste. Na premijeri 1910. godine u Münchenu nastupilo je 858 pjevača i 171 instrumentalist.</p>
+                </div>
+            </div>
+            
+            <!-- 17 -->
+            <div class="fact-item" id="fact-17">
+                <div class="fact-image-container">
+                    <img src="slike/theremin.jpg" alt="Teremin" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Teremin je instrument koji se svira bez dodirivanja</h3>
+                    <p class="fact-text">Teremin, izumljen 1920-ih od strane ruskog fizičara Léona Theremina, jedinstven je elektronički instrument koji se svira bez fizičkog kontakta. Izvođač kontrolira visinu i glasnoću zvuka pomicanjem ruku u blizini dvije metalne antene. Ovaj instrument korišten je u klasičnim djelima, ali je najpoznatiji po svojoj uporabi u znanstveno-fantastičnim filmskim zvučnim zapisima zbog svog "sablasnog" zvuka.</p>
+                </div>
+            </div>
+            
+            <!-- 18 -->
+            <div class="fact-item" id="fact-18">
+                <div class="fact-image-container">
+                    <img src="slike/debussy.jpg" alt="Claude Debussy" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Debussy je mrzio kada su ga nazivali "impresionistom"</h3>
+                    <p class="fact-text">Francuski skladatelj Claude Debussy često se naziva "impresionističkim" skladateljem zbog sličnosti njegove glazbe s impresionističkim slikarstvom, ali on sam je mrzio tu etiketu. "Trudim se stvoriti nešto novo - realnosti koje neznalice nazivaju 'impresionizmom'", napisao je jednom prilikom, preferirajući da se njegova glazba cijeni na vlastitim uvjetima, a ne kao dio umjetničkog pokreta.</p>
+                </div>
+            </div>
+            
+            <!-- 19 -->
+            <div class="fact-item" id="fact-19">
+                <div class="fact-image-container">
+                    <img src="slike/vivaldi.jpeg" alt="Antonio Vivaldi" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Vivaldi je bio svećenik s nadimkom "Crveni svećenik"</h3>
+                    <p class="fact-text">Antonio Vivaldi bio je katolički svećenik, ali je dobio dopuštenje da ne služi mise zbog zdravstvenih problema (vjeruje se da je patio od astme). Zbog svoje crvene kose dobio je nadimak "Il Prete Rosso" (Crveni svećenik). Osim što je bio skladatelj, Vivaldi je vodio ženski orkestar i zbor u venecijanskom sirotištu za napuštene djevojčice, gdje je radio više od 30 godina.</p>
+                </div>
+            </div>
+            
+            <!-- 20 -->
+            <div class="fact-item" id="fact-20">
+                <div class="fact-image-container">
+                    <img src="slike/wagner.png" alt="Richard Wagner" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Wagner je izgradio vlastito kazalište za svoje opere</h3>
+                    <p class="fact-text">Njemački skladatelj Richard Wagner bio je toliko nezadovoljan postojećim opernim kućama da je izgradio vlastito kazalište, Festspielhaus u Bayreuthu, posebno dizajnirano za izvođenje njegovih opera. Ova inovativna zgrada, otvorena 1876. godine, uključivala je revolucionarne značajke poput skrivenog orkestra i zamračene gledališne dvorane kako bi se publika fokusirala na pozornicu.</p>
+                </div>
+            </div>
+            
+            <!-- 21 -->
+            <div class="fact-item" id="fact-21">
+                <div class="fact-image-container">
+                    <img src="slike/mozarteum.jpg" alt="Mozartova lopta" class="fact-image">
+                </div>
+                <div class="fact-content">
+                    <h3 class="fact-title">Mozartove kuglice izumljene su 100 godina nakon njegove smrti</h3>
+                    <p class="fact-text">Popularne "Mozartove kuglice" (Mozartkugeln), čokoladni bomboni s marcipanom i nugat punjenjem, nemaju nikakve veze sa samim skladateljem. Osmislio ih je salzburški slastičar Paul Fürst 1890. godine, gotovo 100 godina nakon Mozartove smrti, kako bi odao počast slavnom skladatelju. Originalne Mozartove kuglice još uvijek se ručno proizvode u Salzburgu prema originalnom receptu.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const facts = document.querySelectorAll('.fact-item');
+            const prevButton = document.getElementById('prev-button');
+            const nextButton = document.getElementById('next-button');
+            const factCounter = document.getElementById('fact-counter');
+            let currentFactIndex = 0;
+            const totalFacts = facts.length;
+            
+            // Funkcija za prikaz trenutne zanimljivosti
+            function showFact(index) {
+                // Sakrij sve zanimljivosti
+                facts.forEach(fact => {
+                    fact.classList.remove('active');
+                });
+                
+                // Prikaži samo trenutnu zanimljivost
+                facts[index].classList.add('active');
+                
+                // Ažuriraj brojač
+                factCounter.textContent = `${index + 1} / ${totalFacts}`;
+                
+                // Ažuriraj stanje gumba
+                prevButton.disabled = index === 0;
+                nextButton.disabled = index === totalFacts - 1;
+            }
+            
+            // Postavi event listenere za gumbe
+            prevButton.addEventListener('click', function() {
+                if (currentFactIndex > 0) {
+                    currentFactIndex--;
+                    showFact(currentFactIndex);
+                }
+            });
+            
+            nextButton.addEventListener('click', function() {
+                if (currentFactIndex < totalFacts - 1) {
+                    currentFactIndex++;
+                    showFact(currentFactIndex);
+                }
+            });
+            
+            // Inicijalno prikaži prvu zanimljivost
+            showFact(currentFactIndex);
+        });
+    </script>
+</body>
+</html>
